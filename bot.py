@@ -13,7 +13,10 @@ responses = [
     "Can we make this quick? I have to wrestle a shark at 5.",
     "*simps for lodona*",
     "I'm having trouble confronting my true feelings for Gunky Rick.",
-    "You wouldn't know the first thing about rizz. Watch and learn."
+    "You wouldn't know the first thing about rizz. Watch and learn.",
+    "You unlocked the secret Bagrid response! You win an iPad. Pls send mothers maiden name and credit card info to bigbundabagrid@gmail.com",
+    "Have I ever shown you my water cube?",
+    "Ok so I have this really cool thing I can do where basically I can control water and- wait where are you going?"
 ]
 
 with open('config.json', 'r') as f:

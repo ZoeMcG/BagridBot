@@ -8,7 +8,9 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 responses = [
+    "Please stop asking about my ex-wife.",
     "*curls up in a ball on the tower doorstep*",
+    "*rolls a nat 1*",
     "Are you *sure* these are berries?",
     "Please get off my shoulder.",
     'Hit the bagriddy',

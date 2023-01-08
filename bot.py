@@ -7,6 +7,8 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 responses = [
+    "*curls up in a ball on the tower doorstep*"
+    "Are you *sure* these are berries?"
     'Hit the bagriddy',
     'Can you tell me about your establishment for my friends over there? *gestures vaguely behind him*',
     "I'm not your dad!",
@@ -14,7 +16,7 @@ responses = [
     "*simps for lodona*",
     "I'm having trouble confronting my true feelings for Gunky Rick.",
     "You wouldn't know the first thing about rizz. Watch and learn.",
-    "You unlocked the secret Bagrid response! You win an iPad. Pls send mothers maiden name and credit card info to bigbundabagrid@gmail.com",
+    "You unlocked the secret Bagrid response! You win an iPad. Please send your mother's maiden name and credit card info to bigbundabagrid@gmail.com",
     "Have I ever shown you my water cube?",
     "Ok so I have this really cool thing I can do where basically I can control water and- wait where are you going?"
 ]

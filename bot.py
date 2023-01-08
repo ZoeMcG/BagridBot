@@ -1,9 +1,19 @@
 import discord
 import json
+import random
 
 data = {}
 intents = discord.Intents.default()
 intents.message_content = True
+
+responses = [
+    'Hit the bagriddy',
+    'Can you tell me about your establishment for my friends over there? *gestures vaguely behind him*',
+    "I'm not your dad!",
+    "Can we make this quick? I have to wrestle a shark at 5.",
+    "*simps for lodona*",
+    "I'm having trouble confronting my true feelings for Gunky Rick."
+]
 
 with open('config.json', 'r') as f:
   data = json.load(f)
@@ -28,5 +38,8 @@ async def on_message(message):
     for word in message.content.split(' '):
         if word.lower() == 'bagrid':
             bagriddy = True
+    
+    if bagriddy:
+        await message.channel.send(random.choice(responses))
 
 client.run(TOKEN)

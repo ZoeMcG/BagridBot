@@ -1,6 +1,7 @@
 import discord
 import json
 import random
+import re
 
 data = {}
 intents = discord.Intents.default()
@@ -43,6 +44,7 @@ async def on_message(message):
 
     bagriddy = False
     for word in message.content.split(' '):
+        word = re.sub(r'[^a-zA-Z]', '', word)
         if word.lower() == 'bagrid':
             bagriddy = True
     

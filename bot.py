@@ -9,6 +9,7 @@ intents.message_content = True
 
 responses = [
     "Is that a water wizard in your cape flaps or are you just happy to see me?",
+    "Well at least *I* didn't kill someone with a healing spell, unlike *someone*.",
     "Yes Sharon I've paid the child support! 3 gold pieces, just like every other month!",
     "Can we not do the whole exercise thing please? I have a -1 athletics modifier.",
     "Please stop asking about my ex-wife.",

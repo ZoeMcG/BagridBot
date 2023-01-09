@@ -8,6 +8,9 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 responses = [
+    "Is that a water wizard in your cape flaps or are you just happy to see me?",
+    "Yes Sharon I've paid the child support! 3 gold pieces, just like every other month!",
+    "Can we not do the whole exercise thing please? I have a -1 athletics modifier.",
     "Please stop asking about my ex-wife.",
     "*curls up in a ball on the tower doorstep*",
     "*rolls a nat 1*",

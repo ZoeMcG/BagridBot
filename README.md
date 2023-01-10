@@ -1,4 +1,4 @@
-#Sorceror. Father of Two. Legend.
+# Sorceror. Father of Two. Legend.
 
 With this application, you can host your very own Bagrid discord bot.
 

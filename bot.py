@@ -49,7 +49,7 @@ async def on_message(message):
 
     authorId = message.author.id
 
-    if message.content.startswith('bucks'):
+    if message.content.lower().startswith('bucks'):
         coinies = 0
         if authorId in userCoins:
             coinies = userCoins[authorId]

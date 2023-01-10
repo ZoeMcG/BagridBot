@@ -23,9 +23,10 @@ userCoins = {}
 with open('bagridbucks.json','r') as j:
     userCoins = json.load(j)
 
+
 def giveCoins(id):
     randAdd = random.randint(5,10)
-    if id in userCoins:
+    if id in userCoins.keys():
         userCoins[id] = userCoins[id] + randAdd
     else:
         userCoins[id] = randAdd
@@ -47,12 +48,12 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    authorId = message.author.id
+    authorId = str(message.author.id)
 
     if message.content.lower().startswith('bucks'):
         coinies = 0
-        if authorId in userCoins:
-            coinies = userCoins[authorId]
+        if authorId in userCoins.keys():
+            coinies = userCoins[str(authorId)]
         await message.channel.send('You have '+str(coinies)+' BagridBucks!')
         return
 

@@ -9,7 +9,11 @@ Setup steps:
 {
     "token":"YOUR_BOT_TOKEN"
 }
-If you push your repository to a branch, the json file will not be pushed so you do not need to worry about leaking your bot's token.
+- Create another json file entitled 'bagridbucks.json'. Put in there:
+{
+
+ }
+If you push your repository to a branch, the json file will not be pushed so you do not need to worry about leaking your bot's token. The bagridbucks database is also private.
 - Generate an application link and invite your bot to your server.
 - Run the python script.
 - Meet Bagrid in the (not) flesh!
